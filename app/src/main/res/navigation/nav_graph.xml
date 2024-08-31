@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_jobs">
+
+    <fragment
+        android:id="@+id/navigation_jobs"
+        android:name="com.meenal.jobhunt.fragment.JobsFragment"
+        android:label="Jobs"
+        tools:layout="@layout/fragment_jobs" />
+
+    <fragment
+        android:id="@+id/navigation_bookmarks"
+        android:name="com.meenal.jobhunt.fragment.BookmarksFragment"
+        android:label="Bookmarks"
+        tools:layout="@layout/fragment_bookmarks" />
+
+    <fragment
+        android:id="@+id/jobDetailsFragment"
+        android:name="com.meenal.jobhunt.fragment.JobsFragment"
+        android:label="Job Details"
+        tools:layout="@layout/fragment_job_details"/>
+</navigation>
